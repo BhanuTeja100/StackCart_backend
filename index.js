@@ -18,7 +18,7 @@ const app = express();
 app.use(
     cors({
         origin: [
-            "",
+            "https://stack-cart-frontend.vercel.app",
             "http://localhost:3000",
         ],
         methods: ["POST", "GET", "PUT", "DELETE", "PATCH"],
